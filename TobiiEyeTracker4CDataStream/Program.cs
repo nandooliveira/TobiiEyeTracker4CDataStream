@@ -15,7 +15,7 @@ namespace TobiiEyeTracker4CDataStream
 
         static void Main(string[] args)
         {
-            var connString = "Host=localhost;Username=postgres;Password=postgres;Database=eyetracker";
+            var connString = "Host=localhost;Username=postgres;Password=postgres;Database=easy";
             var host = new Host();
             var gazePointDataStream = host.Streams.CreateGazePointDataStream();
 
@@ -29,7 +29,6 @@ namespace TobiiEyeTracker4CDataStream
 
                 // 3. Get the gaze data!
                 gazePointDataStream.GazePoint((x, y, ts) => {
-                    var y = x * 2.3;
                     string now = DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
                     string point = string.Format(Format, (int)x, (int)y, now);
                     // sw.WriteLine(point);
