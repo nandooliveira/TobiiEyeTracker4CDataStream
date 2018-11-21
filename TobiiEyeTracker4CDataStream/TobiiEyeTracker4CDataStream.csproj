@@ -5,4 +5,19 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Tobii.Interaction" Version="0.7.3" />
+    <PackageReference Include="Tobii.StreamEngine" Version="2.2.2.363" />
+    <PackageReference Include="Tobii.StreamEngine.Native" Version="2.2.2.363" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Tobii.Interaction.Model">
+      <HintPath>packages\Tobii.Interaction.0.7.3\lib\net45\Tobii.Interaction.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Tobii.Interaction.Net">
+      <HintPath>packages\Tobii.Interaction.0.7.3\lib\net45\Tobii.Interaction.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
