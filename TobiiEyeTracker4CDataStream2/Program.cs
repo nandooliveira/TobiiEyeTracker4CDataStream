@@ -37,7 +37,7 @@ namespace TobiiEyeTracker4CDataStream2
                     using (var cmd = new NpgsqlCommand())
                     {
                         cmd.Connection = conn;
-                        cmd.CommandText = "INSERT INTO points (x, y, datetime) VALUES (@x, @y, @datetime)";
+                        cmd.CommandText = "INSERT INTO experiments_point (x, y, datetime) VALUES (@x, @y, @datetime)";
                         cmd.Parameters.AddWithValue("x", "" + x);
                         cmd.Parameters.AddWithValue("y", "" + y);
                         cmd.Parameters.AddWithValue("datetime", DateTime.Now);

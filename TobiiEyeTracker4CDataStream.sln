@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobiiEyeTracker4CDataStream2", "TobiiEyeTracker4CDataStream2\TobiiEyeTracker4CDataStream2.csproj", "{E6A2D5EE-0E03-4580-ABFC-73AD53C234EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobiiEyeTracker4CDataStream", "TobiiEyeTracker4CDataStream2\TobiiEyeTracker4CDataStream.csproj", "{E6A2D5EE-0E03-4580-ABFC-73AD53C234EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
